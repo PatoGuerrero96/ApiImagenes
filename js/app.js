@@ -52,7 +52,7 @@ async function buscarImagenes() {
 
     const termino = document.querySelector('#termino').value;
 
-    const key = '28878850-d66f621cc7a98887261aa3345';
+    const key = api;
     const url = `https://pixabay.com/api/?key=${key}&q=${termino}&per_page=${registrosPorPagina}&page=${paginaActual}`;
 
   try {
